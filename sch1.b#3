@@ -12,7 +12,7 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
@@ -2089,44 +2089,46 @@ design rules under a new name.</description>
 <signal name="N$36">
 <contactref element="SV1" pad="5"/>
 <contactref element="OK6" pad="1"/>
-<wire x1="53.34" y1="17.78" x2="55.88" y2="15.24" width="0.8128" layer="16"/>
-<wire x1="55.88" y1="15.24" x2="78.74" y2="15.24" width="0.8128" layer="16"/>
+<wire x1="53.34" y1="15.24" x2="78.74" y2="15.24" width="0.8128" layer="16"/>
 <wire x1="78.74" y1="15.24" x2="87.63" y2="24.13" width="0.8128" layer="16"/>
 <wire x1="87.63" y1="24.13" x2="95.25" y2="24.13" width="0.8128" layer="16"/>
+<wire x1="53.34" y1="15.24" x2="53.34" y2="17.78" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$37">
 <contactref element="SV1" pad="6"/>
 <contactref element="OK5" pad="1"/>
-<wire x1="50.8" y1="17.78" x2="53.34" y2="20.32" width="0.8128" layer="16"/>
-<wire x1="53.34" y1="20.32" x2="74.93" y2="20.32" width="0.8128" layer="16"/>
+<wire x1="52.07" y1="20.32" x2="74.93" y2="20.32" width="0.8128" layer="16"/>
 <wire x1="74.93" y1="20.32" x2="78.74" y2="24.13" width="0.8128" layer="16"/>
+<wire x1="50.8" y1="17.78" x2="52.07" y2="20.32" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$38">
 <contactref element="SV1" pad="7"/>
 <contactref element="OK4" pad="1"/>
-<wire x1="48.26" y1="17.78" x2="54.61" y2="24.13" width="0.8128" layer="16"/>
 <wire x1="54.61" y1="24.13" x2="60.96" y2="24.13" width="0.8128" layer="16"/>
+<wire x1="54.61" y1="24.13" x2="49.53" y2="21.59" width="0.8128" layer="16"/>
+<wire x1="49.53" y1="21.59" x2="48.26" y2="17.78" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$39">
 <contactref element="SV1" pad="8"/>
 <contactref element="OK3" pad="1"/>
-<wire x1="43.18" y1="24.13" x2="43.18" y2="21.59" width="0.8128" layer="16"/>
-<wire x1="43.18" y1="21.59" x2="45.72" y2="19.05" width="0.8128" layer="16"/>
-<wire x1="45.72" y1="19.05" x2="45.72" y2="17.78" width="0.8128" layer="16"/>
+<wire x1="52.07" y1="26.67" x2="43.18" y2="26.67" width="0.8128" layer="16"/>
+<wire x1="43.18" y1="26.67" x2="43.18" y2="24.13" width="0.8128" layer="16"/>
+<wire x1="45.72" y1="17.78" x2="45.72" y2="20.32" width="0.8128" layer="16"/>
+<wire x1="45.72" y1="20.32" x2="52.07" y2="26.67" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$40">
 <contactref element="SV1" pad="9"/>
 <contactref element="OK2" pad="1"/>
-<wire x1="26.67" y1="24.13" x2="26.67" y2="21.59" width="0.8128" layer="16"/>
-<wire x1="26.67" y1="21.59" x2="39.37" y2="21.59" width="0.8128" layer="16"/>
-<wire x1="39.37" y1="21.59" x2="43.18" y2="17.78" width="0.8128" layer="16"/>
+<wire x1="26.67" y1="24.13" x2="26.67" y2="26.67" width="0.8128" layer="16"/>
+<wire x1="26.67" y1="26.67" x2="39.37" y2="26.67" width="0.8128" layer="16"/>
+<wire x1="39.37" y1="26.67" x2="43.18" y2="17.78" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$41">
 <contactref element="SV1" pad="10"/>
 <contactref element="OK1" pad="1"/>
 <wire x1="8.89" y1="24.13" x2="8.89" y2="20.32" width="0.8128" layer="16"/>
-<wire x1="8.89" y1="20.32" x2="38.1" y2="20.32" width="0.8128" layer="16"/>
-<wire x1="38.1" y1="20.32" x2="40.64" y2="17.78" width="0.8128" layer="16"/>
+<wire x1="8.89" y1="20.32" x2="39.37" y2="20.32" width="0.8128" layer="16"/>
+<wire x1="39.37" y1="20.32" x2="40.64" y2="17.78" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$22">
 <contactref element="SV1" pad="12"/>
@@ -2337,6 +2339,33 @@ design rules under a new name.</description>
 <contactref element="SV4" pad="3"/>
 </signal>
 </signals>
+<errors>
+<approved hash="3,1,eacbf021ceb6d45c"/>
+<approved hash="3,1,eadff0358f4e95a4"/>
+<approved hash="2,20,14bd5f495e3115c5"/>
+<approved hash="2,20,3fbc8b488a323ec6"/>
+<approved hash="4,1,f4ca7cf06286eabc"/>
+<approved hash="4,1,cecf00f51e82d0b8"/>
+<approved hash="4,16,fa3915972be0eabe"/>
+<approved hash="4,16,fd47129f2de8ecfe"/>
+<approved hash="4,16,e0510f9f3328efe6"/>
+<approved hash="4,16,8f57bfe9f1a00123"/>
+<approved hash="4,16,7b52fbebb1a53927"/>
+<approved hash="4,16,a751f7e6b9a6f927"/>
+<approved hash="4,16,b15195e4b9a4f124"/>
+<approved hash="4,16,875c77ea39a6f929"/>
+<approved hash="4,16,9f5997eab9a23123"/>
+<approved hash="4,16,f4ca7cf06286eabc"/>
+<approved hash="4,16,61aa5181a1d64d24"/>
+<approved hash="4,16,b03b8efc57daa7cc"/>
+<approved hash="4,16,6f83a0498e079d14"/>
+<approved hash="4,16,b018102bb038c33b"/>
+<approved hash="4,16,af9817f528e059b2"/>
+<approved hash="4,16,cecf00f51e82d0b8"/>
+<approved hash="4,16,8d1962d2641a7ab2"/>
+<approved hash="4,16,fe7f40932ba10b11"/>
+<approved hash="4,16,b60314222ed0a234"/>
+</errors>
 </board>
 </drawing>
 </eagle>

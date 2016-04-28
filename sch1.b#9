@@ -1828,23 +1828,23 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="6.35" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="6.35" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="IRS" library="con-ptr500" package="AK500/3" value="" x="97.79" y="12.7" rot="R270">
-<attribute name="MF" value="" x="97.79" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="97.79" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="97.79" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="97.79" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="IRS" library="con-ptr500" package="AK500/3" value="" x="10.16" y="0">
+<attribute name="MF" value="" x="10.16" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="10.16" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="10.16" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="10.16" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="SPOT" library="con-ptr500" package="AK500/3" value="" x="81.28" y="11.43" rot="R270">
-<attribute name="MF" value="" x="81.28" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="81.28" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="81.28" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="81.28" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="SPOT" library="con-ptr500" package="AK500/3" value="" x="25.4" y="0">
+<attribute name="MF" value="" x="25.4" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="25.4" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="25.4" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="25.4" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="CSEL" library="con-ptr500" package="AK500/4" value="" x="20.32" y="11.43" rot="R90">
-<attribute name="MF" value="" x="20.32" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="20.32" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="20.32" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="20.32" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="CSEL" library="con-ptr500" package="AK500/4" value="" x="82.55" y="0">
+<attribute name="MF" value="" x="82.55" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="82.55" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="82.55" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="82.55" y="0" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -1855,7 +1855,7 @@ design rules under a new name.</description>
 <contactref element="R1" pad="2"/>
 <wire x1="17.78" y1="81.28" x2="25.4" y2="81.28" width="0" layer="19" extent="1-1"/>
 <wire x1="17.78" y1="74.93" x2="17.78" y2="81.28" width="0" layer="19" extent="1-1"/>
-<wire x1="31.75" y1="50.8" x2="25.4" y2="81.28" width="0" layer="19" extent="1-1"/>
+<wire x1="31.75" y1="50.8" x2="17.78" y2="74.93" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R2" pad="2"/>
@@ -1920,12 +1920,12 @@ design rules under a new name.</description>
 <signal name="N$11">
 <contactref element="K4" pad="S1"/>
 <contactref element="R10" pad="2"/>
-<wire x1="62.23" y1="74.93" x2="66.04" y2="55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="66.04" y1="55.88" x2="62.23" y2="74.93" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="K5" pad="S1"/>
 <contactref element="R11" pad="2"/>
-<wire x1="76.2" y1="74.93" x2="83.82" y2="55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="83.82" y1="55.88" x2="76.2" y2="74.93" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="K6" pad="S1"/>
@@ -2007,14 +2007,18 @@ design rules under a new name.</description>
 <contactref element="K1" pad="O2"/>
 <contactref element="R19" pad="1"/>
 <contactref element="SIN" pad="3"/>
-<wire x1="10.16" y1="62.23" x2="3.81" y2="66.1162" width="0" layer="19" extent="1-1"/>
+<wire x1="3.81" y1="66.1162" x2="10.16" y2="62.23" width="0" layer="19" extent="1-1"/>
 <wire x1="6.35" y1="50.8" x2="10.16" y2="62.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$36">
 <contactref element="SV1" pad="5"/>
+<contactref element="OK6" pad="1"/>
+<wire x1="53.34" y1="17.78" x2="97.79" y2="31.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$37">
 <contactref element="SV1" pad="6"/>
+<contactref element="OK5" pad="1"/>
+<wire x1="50.8" y1="17.78" x2="81.28" y2="31.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$38">
 <contactref element="SV1" pad="7"/>
@@ -2049,37 +2053,37 @@ design rules under a new name.</description>
 <signal name="N$42">
 <contactref element="SV2" pad="11"/>
 <contactref element="IRS" pad="2"/>
-<wire x1="38.1" y1="2.54" x2="97.79" y2="12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="38.1" y1="2.54" x2="10.16" y2="0" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$43">
 <contactref element="SV2" pad="8"/>
 <contactref element="CSEL" pad="1"/>
-<wire x1="20.32" y1="3.9116" x2="45.72" y2="2.54" width="0" layer="19" extent="1-1"/>
+<wire x1="75.0316" y1="0" x2="45.72" y2="2.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$44">
 <contactref element="SV2" pad="7"/>
 <contactref element="CSEL" pad="2"/>
-<wire x1="20.32" y1="8.9408" x2="48.26" y2="2.54" width="0" layer="19" extent="1-1"/>
+<wire x1="80.0608" y1="0" x2="48.26" y2="2.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$45">
 <contactref element="SV2" pad="6"/>
 <contactref element="CSEL" pad="3"/>
-<wire x1="20.32" y1="13.9192" x2="50.8" y2="2.54" width="0" layer="19" extent="1-1"/>
+<wire x1="85.0392" y1="0" x2="50.8" y2="2.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$46">
 <contactref element="SV2" pad="5"/>
 <contactref element="CSEL" pad="4"/>
-<wire x1="20.32" y1="18.9484" x2="53.34" y2="2.54" width="0" layer="19" extent="1-1"/>
+<wire x1="90.0684" y1="0" x2="53.34" y2="2.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$47">
 <contactref element="SV2" pad="10"/>
 <contactref element="SPOT" pad="1"/>
-<wire x1="40.64" y1="2.54" x2="81.28" y2="16.4338" width="0" layer="19" extent="1-1"/>
+<wire x1="40.64" y1="2.54" x2="20.3962" y2="0" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$48">
 <contactref element="SV2" pad="9"/>
 <contactref element="SPOT" pad="3"/>
-<wire x1="43.18" y1="2.54" x2="81.28" y2="6.4262" width="0" layer="19" extent="1-1"/>
+<wire x1="43.18" y1="2.54" x2="30.4038" y2="0" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$50">
 <contactref element="SV2" pad="1"/>
@@ -2090,7 +2094,7 @@ design rules under a new name.</description>
 <contactref element="OK4" pad="4"/>
 <contactref element="OK5" pad="4"/>
 <contactref element="OK6" pad="4"/>
-<wire x1="97.79" y1="17.7038" x2="97.79" y2="24.13" width="0" layer="19" extent="1-1"/>
+<wire x1="5.1562" y1="0" x2="97.79" y2="24.13" width="0" layer="19" extent="1-1"/>
 <wire x1="81.28" y1="24.13" x2="97.79" y2="24.13" width="0" layer="19" extent="1-1"/>
 <wire x1="63.5" y1="24.13" x2="81.28" y2="24.13" width="0" layer="19" extent="1-1"/>
 <wire x1="45.72" y1="24.13" x2="63.5" y2="24.13" width="0" layer="19" extent="1-1"/>
@@ -2119,19 +2123,8 @@ design rules under a new name.</description>
 <contactref element="K4" pad="16"/>
 <contactref element="K5" pad="16"/>
 <contactref element="K6" pad="16"/>
-<wire x1="76.2" y1="38.1" x2="92.71" y2="38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="60.96" y1="31.75" x2="76.2" y2="38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="58.42" y1="38.1" x2="60.96" y2="31.75" width="0" layer="19" extent="1-1"/>
-<wire x1="55.88" y1="17.78" x2="60.96" y2="31.75" width="0" layer="19" extent="1-1"/>
-<wire x1="43.18" y1="31.75" x2="58.42" y2="38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="40.64" y1="38.1" x2="43.18" y2="31.75" width="0" layer="19" extent="1-1"/>
-<wire x1="26.67" y1="31.75" x2="40.64" y2="38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="24.13" y1="38.1" x2="26.67" y2="31.75" width="0" layer="19" extent="1-1"/>
-<wire x1="8.89" y1="31.75" x2="24.13" y2="38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="6.35" y1="38.1" x2="8.89" y2="31.75" width="0" layer="19" extent="1-1"/>
-<wire x1="6.35" y1="12.7" x2="8.89" y2="31.75" width="0" layer="19" extent="1-1"/>
-<wire x1="81.28" y1="11.43" x2="55.88" y2="17.78" width="0" layer="19" extent="1-1"/>
-<wire x1="97.79" y1="7.6962" x2="81.28" y2="11.43" width="0" layer="19" extent="1-1"/>
+<contactref element="OK5" pad="2"/>
+<contactref element="OK6" pad="2"/>
 </signal>
 <signal name="N$34">
 <contactref element="R23" pad="2"/>
@@ -2147,8 +2140,8 @@ design rules under a new name.</description>
 <contactref element="R20" pad="1"/>
 <contactref element="K2" pad="O2"/>
 <contactref element="R13" pad="1"/>
-<wire x1="17.78" y1="68.58" x2="25.4" y2="62.23" width="0" layer="19" extent="1-1"/>
-<wire x1="17.78" y1="62.23" x2="17.78" y2="68.58" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="62.23" x2="25.4" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="68.58" x2="17.78" y2="62.23" width="0" layer="19" extent="1-1"/>
 <wire x1="24.13" y1="50.8" x2="25.4" y2="62.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">

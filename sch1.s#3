@@ -4828,6 +4828,7 @@ W = angled&lt;p&gt;
 <junction x="71.12" y="20.32"/>
 <junction x="88.9" y="20.32"/>
 <junction x="106.68" y="20.32"/>
+<junction x="101.6" y="27.94"/>
 </segment>
 </net>
 <net name="N$34" class="0">

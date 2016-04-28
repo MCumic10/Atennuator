@@ -4606,7 +4606,7 @@ W = angled&lt;p&gt;
 <junction x="22.86" y="20.32"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="N$35" class="0">
 <segment>
 <pinref part="SV1" gate="1" pin="11"/>
 <wire x1="48.26" y1="-5.08" x2="35.56" y2="7.62" width="0.1524" layer="91"/>
@@ -4626,7 +4626,7 @@ W = angled&lt;p&gt;
 <junction x="-10.16" y="5.08"/>
 </segment>
 </net>
-<net name="N$42" class="0">
+<net name="N$49" class="0">
 <segment>
 <pinref part="SV2" gate="1" pin="11"/>
 <wire x1="48.26" y1="-22.86" x2="45.72" y2="-20.32" width="0.1524" layer="91"/>
@@ -4636,7 +4636,7 @@ W = angled&lt;p&gt;
 <junction x="-10.16" y="-20.32"/>
 </segment>
 </net>
-<net name="N$43" class="0">
+<net name="N$21" class="0">
 <segment>
 <pinref part="SV2" gate="1" pin="8"/>
 <wire x1="55.88" y1="-22.86" x2="55.88" y2="-35.56" width="0.1524" layer="91"/>
@@ -4668,7 +4668,7 @@ W = angled&lt;p&gt;
 <pinref part="CSEL" gate="-4" pin="KL"/>
 </segment>
 </net>
-<net name="N$47" class="0">
+<net name="N$42" class="0">
 <segment>
 <pinref part="SV2" gate="1" pin="10"/>
 <wire x1="50.8" y1="-22.86" x2="50.8" y2="-27.94" width="0.1524" layer="91"/>
@@ -4678,7 +4678,7 @@ W = angled&lt;p&gt;
 <junction x="-10.16" y="-27.94"/>
 </segment>
 </net>
-<net name="N$48" class="0">
+<net name="N$43" class="0">
 <segment>
 <pinref part="SV2" gate="1" pin="9"/>
 <wire x1="53.34" y1="-22.86" x2="53.34" y2="-30.48" width="0.1524" layer="91"/>

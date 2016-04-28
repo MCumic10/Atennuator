@@ -4526,6 +4526,7 @@ W = angled&lt;p&gt;
 <segment>
 <pinref part="K1" gate="3" pin="P"/>
 <pinref part="R13" gate="G$1" pin="2"/>
+<junction x="10.16" y="63.5"/>
 </segment>
 </net>
 <net name="N$15" class="0">
